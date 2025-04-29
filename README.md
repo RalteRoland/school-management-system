@@ -1,3 +1,29 @@
+A simple School Management System built using Laravel and Filament. This project allows you to manage students, classes, and attendance for a school. It has features for adding, editing, and deleting student records, managing school classes and tracking attendance.
+
+## Main Features:
+   - Student Management: Add, edit, and delete student records.
+   - Class Management: Create and manage school classes.
+   - Attendance Management: Record attendance for students in different classes.
+
+## Features:
+  - Manage Students: Admins can add and edit student details such as name and email.
+  - Assign Students to Classes: Assign students to specific classes.
+  - Track Attendance: Mark attendance for students based on class sessions.
+  - 
+## Requirements:
+  - Laravel
+  - Composer
+  - Filament
+  
+## Installation
+  - git clone https://github.com/RalteRoland/school-management-system.git
+  - composer install
+  - cp .env.example .env
+  - php artisan key:generate
+  - php artisan migrate
+  - php artisan make:filament-user 
+  - php artisan serve or php -S localhost:8000 -t public
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
